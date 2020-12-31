@@ -6,15 +6,15 @@ static int centered = 1;                   /* -c option; centers dmenu on screen
 static int min_width = 500;                /* minimum width when centered */
 static int fuzzy = 1;                      /* -F  option; if 0, dmenu doesn't use fuzzy matching     */
 /* -fn option overrides fonts[0]; default X11 font or font set */
-static const char *fonts[] = { "Ubuntu Mono:pixelsize=14.4:style=bold", "Blobmoji:pixelsize=14.4" };
+static const char *fonts[] = { "Ubuntu Mono:pixelsize=14.4:style=regular", "Blobmoji:pixelsize=14.4" };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#9294a8", "#151823" },
-	[SchemeSel]  = { "#d6d8eb", "#1e212e" },
+	[SchemeNorm] = { "#767676", "#ffffff" },
+	[SchemeSel]  = { "#444444", "#f2f2f2" },
 	[SchemeOut]  = { "#000000", "#00ffff" },
-	[SchemeSelHighlight]  = { "#d6d8eb", "#1e212e" },
-	[SchemeNormHighlight] = { "#d6d8eb", "#151823" },
+	[SchemeSelHighlight]  = { "#444444", "#f2f2f2" },
+	[SchemeNormHighlight] = { "#444444", "#ffffff" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 6;
