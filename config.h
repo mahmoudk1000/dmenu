@@ -21,6 +21,7 @@ static unsigned int lines      = 6;
 /* -h option; minimum height of a menu line */
 static unsigned int lineheight = 36;
 static unsigned int min_lineheight = 8;
+static unsigned int columns    = 2;
 
 /*
  * Characters not considered part of a word while deleting words
