@@ -30,6 +30,8 @@ dmenu.
 
 * [Gridnav](../master/patches/dmenu-gridnav-5.0.diff) - patch that allows to go
   left and right when searching for programs within an open dmenu instance.
+* [Border](../master/patches/dmenu-border-4.9.diff) - patch that adds an outside
+  border of a dmenu instance.
 
 # Installation
 
