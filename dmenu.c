@@ -233,7 +233,7 @@ drawmenu(void)
 		for (item = curr; item != next; item = item->right, i++)
 			drawitem(
 				item,
-				x + ((i / lines) *  ((mw - x) / columns)),
+				x - promptw + ((i / lines) *  ((mw - x) / columns)),
 				y + (((i % lines) + 1) * bh),
 				(mw - x) / columns
 			);
